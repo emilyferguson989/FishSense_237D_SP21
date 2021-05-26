@@ -71,7 +71,7 @@ data_manipulation.cpp: Length measurement algorithm
 2. Setup the realsense camera with proper USB (e.g. USB 3.0 for D455)
 3. Run `git clone https://github.com/emilyferguson989/FishSense_237D_SP21.git`
 4. Change directory `cd FishSense_237D_SP21/`
-5. Run `make` to get alignment of RGB-D images
+5. In directory `Length Measurement/`, run `make` to get alignment of RGB-D images. See more details in directory `Length Measurement/`.
 
 ## Learn More About Our Contributions
 [Final Video (coming soon)]()
