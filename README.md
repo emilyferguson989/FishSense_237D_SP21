@@ -31,7 +31,12 @@ Developing a Fish Length Detection Algorithm for this Context [2].
 
 Denoising Underwater Images [3].
 
-| ![Denoising (Demo to come)](https://path_to_image) |
+| ![Denoising (Fusion)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/Fusion_Output.png) |
+| :---: |
+| Overview of the Underwater Image  Noise Filtering Process |
+
+| ![Denoising (Remove backscatters) (Before)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/org-3.png) |
+| ![Denoising (Remove backscatters) (After)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/enh-3.png) |
 | :---: |
 | Overview of the Underwater Image  Noise Filtering Process |
 
@@ -59,7 +64,7 @@ align-p2p.cpp: Alignment of RGB and depth images
 data_manipulation.cpp: Length measurement algorithm
 
 ### Installation
-1. Run `git clone https://github.com/emilyferguson989/FishSense_237D_SP21`
+1. Run `git clone https://github.com/{our_repo}`
 2. Change directory `cd {repo name}/`
 3. ...
 
