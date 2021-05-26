@@ -66,11 +66,13 @@ align-p2p.cpp: Alignment of RGB and depth images
 data_manipulation.cpp: Length measurement algorithm
 
 ### Installation
-0. Install the realsense library following the instructions from Intel realsense: https://github.com/IntelRealSense/librealsense
-1. Setup the realsense camera with proper USB (e.g. USB 3.0 for D455)
-2. Run `git clone https://github.com/emilyferguson989/FishSense_237D_SP21`
-3. Change directory `cd {repo name}/`
-4. ...
+0. Prepare for the environment
+ 1) Install the realsense library following the instructions from Intel realsense: https://github.com/IntelRealSense/librealsense
+ 2) Install OpenCV from its official website: https://docs.opencv.org/master/df/d65/tutorial_table_of_content_introduction.html
+2. Setup the realsense camera with proper USB (e.g. USB 3.0 for D455)
+3. Run `git clone https://github.com/emilyferguson989/FishSense_237D_SP21`
+4. Change directory `cd {repo name}/`
+5. ...
 
 ## Learn More About Our Contributions
 [Final Video (coming soon)]()
