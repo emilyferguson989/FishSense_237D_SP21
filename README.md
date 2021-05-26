@@ -64,7 +64,7 @@ align-p2p.cpp: Alignment of RGB and depth images
 data_manipulation.cpp: Length measurement algorithm
 
 ### Installation
-1. Run `git clone https://github.com/{our_repo}`
+1. Run `git clone https://github.com/emilyferguson989/FishSense_237D_SP21`
 2. Change directory `cd {repo name}/`
 3. ...
 
