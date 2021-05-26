@@ -66,9 +66,11 @@ align-p2p.cpp: Alignment of RGB and depth images
 data_manipulation.cpp: Length measurement algorithm
 
 ### Installation
-1. Run `git clone https://github.com/emilyferguson989/FishSense_237D_SP21`
-2. Change directory `cd {repo name}/`
-3. ...
+0. Install the realsense library following the instructions from Intel realsense: https://github.com/IntelRealSense/librealsense
+1. Setup the realsense camera with proper USB (e.g. USB 3.0 for D455)
+2. Run `git clone https://github.com/emilyferguson989/FishSense_237D_SP21`
+3. Change directory `cd {repo name}/`
+4. ...
 
 ## Learn More About Our Contributions
 [Final Video (coming soon)]()
