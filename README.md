@@ -15,17 +15,17 @@ In this quarter, we have focused on automating the fish length measurement proce
 
 Setup (Calibration and Alignment of RGB and Depth Images) [1].
 
-| ![Calibration](https://github.com/emilyferguson989/FishSense_237D_SP21/images/calibration_method.png) |
+| ![Calibration](https://github.com/emilyferguson989/FishSense_237D_SP21/tree/main/images/calibration_method.png) |
 | :---: |
 | Method Used to Calibrate Intel RealSense Camera |
 
-| ![RGB Depth Alignment](https://github.com/emilyferguson989/FishSense_237D_SP21/images/rgb_depth_alignment_demo.png) |
+| ![RGB Depth Alignment](https://github.com/emilyferguson989/FishSense_237D_SP21/tree/main/images/rgb_depth_alignment_demo.png) |
 | :---: |
 | Demonstration of the Alignment of RGB and Depth Images |
 
 Developing a Fish Length Detection Algorithm for this Context [2].
 
-| ![Length Detection Algorithm](https://github.com/emilyferguson989/FishSense_237D_SP21/images/length_detection_algorithm_demo.png) |
+| ![Length Detection Algorithm](https://github.com/emilyferguson989/FishSense_237D_SP21/tree/main/images/length_detection_algorithm_demo.png) |
 | :---: |
 | Fish Length Detection Algorithm Demonstration |
 
