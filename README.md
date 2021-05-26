@@ -1,70 +1,7 @@
 # FishSense
-Studying Fish in their Natual Habitat
 
-## Motivation
-Fish are a vital part of our global ecosystem and in order to best protect and preserve them, we must be able to effectively learn about them. We need to not only learn about fish on an individual level, but on a global level too. This can prove difficult, however, as the ocean is their home, not ours! One method that has been used for millennia is to simply go fishing, and analyze characteristics of the fish you catch: species, length, weight, health, location, etc. This invasive method, while accurate, does not capture the full picture. You only are able to report on the fish you catch, and you do not see the interactions between fish, or between fish and their habitat.
+Draft for RGBD alignment and simple length calculation method:
 
-Say then you dive underwater to view the fish in the wild. Now you have the opposite problem: fish are not keen on letting you grab them and measure them. Recent advancements in underwater imaging technology such as laser calipers and stereo camera rigs have made measurement a little easier, but they present additional problems. These include being too bulky for divers to efficiently operate, being unable to fully capture interactions between fish or the habitat, or being inaccurate, especially when fish are not lined up perfectly.
+align-p2p.cpp: when the realsense camera is connected to a computer, each time, for a captured frame, do a point-to-point mapping from depth image to color image, then get the color image with its pixel-wise corresponding depth information.
 
-
-## Project Overview
-We present FishSense as a solution for capturing all characteristics of fish in their natural habitat. Our ergonomic diver operated handheld system brings cutting edge 3D imaging technology below the surface of the ocean. With this device we are able to directly measure geometric and volumetric information about the fish and their environment directly, without needing to perform expensive and specialized post-processing. The extra dimension in the data will also improve AI models for fish detection and classification, which will allow fisheries’ research to scale up dramatically.
-
-In this quarter, we have focused on automating the fish length measurement process to alleviate the cost of catching and measuring fish by hand, one-by-one. We are using an Intel RealSense camera which captures depth images as well as RGB images to capture images of fish underwater. Our contributions include the following:
-
-
-Setup (Calibration and Alignment of RGB and Depth Images) [1].
-
-| ![Calibration](https://path_to_image) |
-| :---: |
-| Overview of the Intel Realsense Camera Calibration |
-
-Developing a Fish Length Detection Algorithm for this Context [2].
-
-| ![Length Detection Algorithm](https://path_to_image) |
-| :---: |
-| Fish Length Detection Algorithm Demonstration |
-
-Denoising Underwater Images [3].
-
-| ![Denoising](https://path_to_image) |
-| :---: |
-| Overview of the Underwater Image  Noise Filtering Process |
-
-Calculating the Length of Fish Given Underwater Images [2].
-
-| ![Underwater Length Detection](https://path_to_image) |
-| :---: |
-| Results of Calculating the Length of Fish in Underwater Images |
-
-## Team Members
-- Xilin Gao
-
-- Zixiang Zhou
-
-- Emily Ferguson
-
-## Project Milestones and Schedule
-
-
-
-## Repository Organization
-### Files
-align-p2p.cpp: Alignment of RGB and depth images
-
-data_manipulation.cpp: Length measurement algorithm
-
-### Installation
-1. Run `git clone https://github.com/{our_repo}`
-2. Change directory `cd {repo name}/`
-3. ...
-
-## Learn More About Our Contributions
-[Final Video (coming soon)]()
-
-[Final Report (coming soon)]()
-
-[Final Presentation Slides (coming soon)]()
-
-## Learn More About the FishSense Project
-[FishSense Website](http://e4e.ucsd.edu/fishsense)
+data_manipulation.cpp: given the pixel coordinates and depth data of two points (average head and average tail), and the intrinsic matrix, distortion model & coefficients from the camera, calculate the Euclidean distance between these two points, namely the length of a fish.
