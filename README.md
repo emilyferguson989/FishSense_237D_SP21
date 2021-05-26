@@ -40,6 +40,11 @@ Denoising Underwater Images [3].
 | :---: |
 | Overview of the Underwater Image Using Removal of Backscatters |
 
+| ![Denoising (Edge Detection) (Before)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/may_15.jpg) |
+| ![Denoising (Edge Detection) (After)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/may_15_edge_detection.png) |
+| :---: |
+| Performing Edge Detection on Underwater Images Using a Gaussian Blur and a Canny Edge Detection Algorithm |
+
 Calculating the Length of Fish Given Underwater Images [2].
 
 | ![Underwater Length Detection (Demo to Come)](https://path_to_image) |
