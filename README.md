@@ -13,39 +13,36 @@ We present FishSense as a solution for capturing all characteristics of fish in 
 In this quarter, we have focused on automating the fish length measurement process to alleviate the cost of catching and measuring fish by hand, one-by-one. We are using an Intel RealSense camera which captures depth images as well as RGB images to capture images of fish underwater. Our contributions include the following:
 
 
-Setup (Calibration and Alignment of RGB and Depth Images) [1].
+### Setup (Calibration and Alignment of RGB and Depth Images) [1].
 
-| ![Calibration](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/calibration_method.png) |
-| :---: |
-| Method Used to Calibrate Intel RealSense Camera |
+| Calibration             |  RGB Depth Alignment |
+:-------------------------:|:-------------------------:
+<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/calibration_method.png" width=400>  |  <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/rgb_depth_alignment_demo.png" width=400>
 
-| ![RGB Depth Alignment](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/rgb_depth_alignment_demo.png) |
-| :---: |
-| Demonstration of the Alignment of RGB and Depth Images |
-
-Developing a Fish Length Detection Algorithm for this Context [2].
+### Developing a Fish Length Detection Algorithm for this Context [2].
 
 | ![Length Detection Algorithm](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/length_detection_algorithm_demo.png) |
 | :---: |
 | Fish Length Detection Algorithm Demonstration |
 
-Denoising Underwater Images [3].
+### Denoising Underwater Images [3].
 
 | ![Denoising (Fusion)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/Fusion_Output.png) |
 | :---: |
 | Overview of the Underwater Image Using Fusion to Denoise |
 
-| ![Denoising (Remove backscatters) (Before)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/org-3.png) |
-| ![Denoising (Remove backscatters) (After)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/enh-3.png) |
-| :---: |
-| Overview of the Underwater Image Using Removal of Backscatters |
 
-| ![Denoising (Edge Detection) (Before)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/may_15.jpg) |
-| ![Denoising (Edge Detection) (After)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/may_15_edge_detection.png) |
-| :---: |
-| Performing Edge Detection on Underwater Images Using a Gaussian Blur and a Canny Edge Detection Algorithm |
+| Before Removal of Backscatters             |  After Removal of Backscatters |
+:-------------------------:|:-------------------------:
+<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/org-3.png" width=400>  |  <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/enh-3.png" width=400>
 
-Calculating the Length of Fish Given Underwater Images [2].
+
+| Before Gaussian Blur + Canny Edge Detection             |  After Gaussian Blur + Canny Edge Detection |
+:-------------------------:|:-------------------------:
+<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/may_15.jpg" width=400>  |  <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/may_15_edge_detection.png" width=400>
+
+
+### Calculating the Length of Fish Given Underwater Images [2].
 
 | ![Underwater Length Detection (Demo to Come)](https://path_to_image) |
 | :---: |
