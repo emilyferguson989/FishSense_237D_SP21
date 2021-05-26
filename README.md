@@ -70,9 +70,9 @@ data_manipulation.cpp: Length measurement algorithm
  -- Install the realsense library following the instructions from Intel realsense: https://github.com/IntelRealSense/librealsense  \n
  -- Install OpenCV from its official website: https://docs.opencv.org/master/df/d65/tutorial_table_of_content_introduction.html
 2. Setup the realsense camera with proper USB (e.g. USB 3.0 for D455)
-3. Run `git clone https://github.com/emilyferguson989/FishSense_237D_SP21`
-4. Change directory `cd {repo name}/`
-5. ...
+3. Run `git clone https://github.com/emilyferguson989/FishSense_237D_SP21.git`
+4. Change directory `cd FishSense_237D_SP21/`
+5. Run `make` to get alignment of RGB-D images
 
 ## Learn More About Our Contributions
 [Final Video (coming soon)]()
