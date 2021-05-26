@@ -57,7 +57,7 @@ In this quarter, we have focused on automating the fish length measurement proce
 
 ## Project Milestones and Schedule
 
-[Schedule](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/FishSense%20Milestones%20and%20Schedule.pdf)
+[Schedule](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/237D%20Documents/FishSense%20Milestones%20and%20Schedule.pdf)
 
 ## Repository Organization
 ### Files
