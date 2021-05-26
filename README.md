@@ -33,12 +33,12 @@ Denoising Underwater Images [3].
 
 | ![Denoising (Fusion)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/Fusion_Output.png) |
 | :---: |
-| Overview of the Underwater Image  Noise Filtering Process |
+| Overview of the Underwater Image Using Fusion to Denoise |
 
 | ![Denoising (Remove backscatters) (Before)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/org-3.png) |
 | ![Denoising (Remove backscatters) (After)](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/enh-3.png) |
 | :---: |
-| Overview of the Underwater Image  Noise Filtering Process |
+| Overview of the Underwater Image Using Removal of Backscatters |
 
 Calculating the Length of Fish Given Underwater Images [2].
 
