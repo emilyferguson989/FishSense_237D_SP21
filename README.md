@@ -61,9 +61,21 @@ In this quarter, we have focused on automating the fish length measurement proce
 
 ## Repository Organization
 ### Files
-align-p2p.cpp: Alignment of RGB and depth images
 
-data_manipulation.cpp: Length measurement algorithm
+#### 237D Documents/
+Required documents regarding the project submitted for 237D assignments
+#### Length Measurement/
+Code used to setup the system as well as perform length calculations
+
+  - align-p2p.cpp: Alignment of RGB and depth images
+
+  - data_manipulation.cpp: Length measurement algorithm
+
+#### Noise Filtering/
+Code used to filter noise from underwater images
+
+#### images/
+Images used to demonstrate project
 
 ### Installation
 0. Install the realsense library following the instructions from Intel realsense: https://github.com/IntelRealSense/librealsense
