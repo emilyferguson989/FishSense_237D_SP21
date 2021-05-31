@@ -76,7 +76,7 @@ In this quarter, we have focused on automating the fish length measurement proce
 
 `Noise Filtering/` Code used to filter noise from underwater images
 
-`images/` Images used to demonstrate project
+`images/` Images used to demonstrate the project
 
 ### Installation
 0. Install the realsense library following the instructions from Intel realsense: https://github.com/IntelRealSense/librealsense
