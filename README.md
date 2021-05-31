@@ -43,7 +43,7 @@ In this quarter, we have focused on automating the fish length measurement proce
 
 | Before Dehazing             |  After Dehazing |
 :-------------------------:|:-------------------------:
-<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/img_haze.png" width=400>  |  <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/img_haze_free.png" width=400>
+<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/img_haze.png" width=400 height=400>  |  <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/img_haze_free.png" width=400 height=400>
 
 
 ### Calculating the Length of Fish Given Underwater Images [2].
