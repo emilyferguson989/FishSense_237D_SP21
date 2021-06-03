@@ -5,11 +5,19 @@
 #### depth_bbox (bounding box coordinate .txt files):
 The code requires the coordinates of a bounding box around the entire fish. Place bounding box coordinate .txt files inside of the 'depth_bbox/' directory.
 The format required for the bounding box coordinates is the following (each coordinate integer should be on its own line):
-lower x coordinate
-lower y coordinate
-upper x coordinate
-upper y coordinate
+
+Line 1: lower x coordinate
+
+Line 2: lower y coordinate
+
+Line 3: upper x coordinate
+
+Line 4: upper y coordinate
+
+
 See the following image for reference, and see examples of the format for the bounding box coordinate .txt files in the depth_bbox directory.
+
+<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/example_coordinates.PNG" width=400>
 
 #### depth_csv (csv files holding depth data):
 ** Please make sure that the name of the csv file is the same as the name of the depth file other than the file extensions.
