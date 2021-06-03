@@ -35,4 +35,18 @@ or
 ### Results of the code:
 1. The resulting depth filtered images will be saved to the 'depth_filtered_images/' directory
 2. The resulting edge detected images will be saved to the 'edge_detected_images/' directory
-3. The resulting edge coordinates for the edges of the head and the tail of the fish will be saved as (x, y) pairs to the 'coordinates/' directory. (The first half of the coordinates saved are for the head, the second half are for the tail)
+3. The resulting edge coordinates for the edges of the head and the tail of the fish will be saved as (x, y) pairs to the 'coordinates/' directory. 
+
+(The first half of the coordinates saved are for the head, the second half are for the tail)
+
+For example, if the following were the contents of a coordinates file,
+
+(2,3)
+
+(4,5)
+
+(10,20)
+
+(12, 21)
+
+Then (2, 3) and (4, 5) would be along the edge for the head, and (10, 20) and (12, 21) would be along the edge for the tail.
