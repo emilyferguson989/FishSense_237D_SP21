@@ -15,4 +15,4 @@ Note: before running the program, feel free to remove all the images in `dehaze/
 
 How to run the program:
 
-In current directory, run `python3 dehaze.py`, then the haze-free images and brightened images will be generated in `dehaze/` and `brighten/`, seperately.
+In current directory, run `python3 dehaze_brighten.py`, then the haze-free images and brightened images will be generated in `dehaze/` and `brighten/`, seperately.
