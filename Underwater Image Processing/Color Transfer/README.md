@@ -25,6 +25,6 @@ In current directory, run `python3 color_transfer.py`, then the transferred imag
 
 Note: 
 1. all images from `blue/` and `green/` are from https://github.com/IPNUISTlegal/underwater-test-dataset-U45-/tree/master/upload/U45, while the target.png is from https://sites.google.com/view/reside-dehaze-datasets.
-2. Reference paper: Color Transfer between Images, Erik Reinhard, Michael Ashikhmin, Bruce Gooch, and Peter Shirley, September/October 2001, 0272-1716/01/$10.00 © 2001 IEEE
+2. reference paper: Color Transfer between Images, Erik Reinhard, Michael Ashikhmin, Bruce Gooch, and Peter Shirley, September/October 2001, 0272-1716/01/$10.00 © 2001 IEEE
 
 
