@@ -4,6 +4,8 @@ Given a bunch of source images and a target image, transfer the source images to
 
 Explanations:
 
+target.png: target image
+
 color_transfer.py: do the transformation as mentioned above
 
 `blue/`: original images that was totally blue
