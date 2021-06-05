@@ -34,16 +34,20 @@ In this quarter, we have focused on automating the fish length measurement proce
 
 | Before Removal of Backscatters             |  After Removal of Backscatters |
 :-------------------------:|:-------------------------:
-<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/org-3.png" width=400>  |  <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/enh-3.png" width=400>
+<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/org-3.png" width=400>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/enh-3.png" width=400>
 
 
 | Before Gaussian Blur + Canny Edge Detection             |  After Gaussian Blur + Canny Edge Detection |
 :-------------------------:|:-------------------------:
-<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/may_15.jpg" width=400>  |  <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/may_15_edge_detection.png" width=400>
+<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/may_15.jpg" width=400>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/may_15_edge_detection.png" width=400>
 
 | Before Dehazing             |  After Dehazing |
 :-------------------------:|:-------------------------:
-<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/img_haze.png" width=400 height=400>  |  <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/img_haze_free.png" width=400 height=400>
+<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/img_haze.png" width=400>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/img_haze_free.png" width=400>
+
+| Before transferring             |  Target                   |  After transferring |         
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/before transfer.png" width=266>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/target.png" width=266>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/after transfer.png" width=266>
 
 
 ### Calculating the Length of Fish Given Underwater Images [2].
@@ -74,7 +78,7 @@ In this quarter, we have focused on automating the fish length measurement proce
 
   - data_manipulation.cpp: Length measurement algorithm
 
-`Noise Filtering/` Code used to filter noise from underwater images
+`Underwater Image Processing/` Code used to do underwater image processing to help with further detection
 
 `images/` Images used to demonstrate the project
 
