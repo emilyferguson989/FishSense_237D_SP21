@@ -50,11 +50,9 @@ In this quarter, we have focused on automating the fish length measurement proce
 <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/before transfer.png" width=266>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/target.png" width=266>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/after transfer.png" width=266>
 
 
-### Calculating the Length of Fish Given Underwater Images [2].
+### Calculating the Length of Fish in Air [2].
 
-| ![Underwater Length Detection (Demo)](https://drive.google.com/file/d/1RAAKjmvraCTCtuozXDL0KcUBxqVNtvJx/view?usp=sharing) |
-| :---: |
-| Results of Calculating the Length of Fish in Air |
+[Underwater Length Detection (Demo)](https://drive.google.com/file/d/1RAAKjmvraCTCtuozXDL0KcUBxqVNtvJx/view?usp=sharing)
 
 ## Team Members
 - Xilin Gao
