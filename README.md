@@ -41,7 +41,7 @@ In this quarter, we have focused on automating the fish length measurement proce
 :-------------------------:|:-------------------------:
 <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/may_15.jpg" width=400>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/may_15_edge_detection.png" width=400>
 
-| Before noise filtration             |  CLAHE                   |  HE              |       ICM             |    RGHS             |
+| Before Noise Filtration             |  CLAHE                   |  HE              |       ICM             |    RGHS             |
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/before noise filtration.png" width=160>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/CLAHE.jpg" width=160>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/HE.jpg" width=160>   |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/ICM.jpg" width=160>   |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/RGHS.jpg" width=160>
 
