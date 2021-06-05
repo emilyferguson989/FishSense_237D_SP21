@@ -52,9 +52,9 @@ In this quarter, we have focused on automating the fish length measurement proce
 
 ### Calculating the Length of Fish Given Underwater Images [2].
 
-| ![Underwater Length Detection (Demo to Come)](https://path_to_image) |
+| ![Underwater Length Detection (Demo)](https://drive.google.com/file/d/1RAAKjmvraCTCtuozXDL0KcUBxqVNtvJx/view?usp=sharing) |
 | :---: |
-| Results of Calculating the Length of Fish in Underwater Images |
+| Results of Calculating the Length of Fish in Air |
 
 ## Team Members
 - Xilin Gao
