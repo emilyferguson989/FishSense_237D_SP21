@@ -16,3 +16,7 @@ Note: before running the program, feel free to remove all the images in `dehaze/
 How to run the program:
 
 In current directory, run `python3 dehaze_brighten.py`, then the haze-free images and brightened images will be generated in `dehaze/` and `brighten/`, seperately.
+
+Note:
+1. all images in current directory are from https://github.com/IPNUISTlegal/underwater-test-dataset-U45-/tree/master/upload/U45/haze.
+2. reference paper: Single Image Haze Removal Using Dark Channel Prior, Kaiming He, Jian Sun, Xiaoou Tang, 978-1-4244-3991-1/09/$25.00 ©2009 IEEE
