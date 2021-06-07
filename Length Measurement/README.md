@@ -10,7 +10,7 @@ Makefile: compile for align-p2p.cpp
 
 color_depth_data: RGB images (.png) and corresponding Depth images (.csv). Those csv files with "_r" are generated afterwards, feel free to remove them by typing  `rm *_r.csv` in the terminal under this directory.
 
-bbox_data: RGB images with bounding box (.jpg) and corresponding coordinate information (.txt). The coordinates of each bounding box is in this format: (xmin, ymin, xmax, ymax). Note here, x is the horizontal axis, and y is the vertical axis.
+bbox_data: RGB images with bounding box (.png) and corresponding coordinate information (.txt). The coordinates of each bounding box is in this format: (xmin, ymin, xmax, ymax). Note here, x is the horizontal axis, and y is the vertical axis.
 
 revise_depth.py: modify the Depth pixel value if some points inside the fish is unmapped. It will generate a new csv file, e.g. new Depth file 1_r.csv for the original Depth file 1.csv.
 
