@@ -76,10 +76,6 @@ In this quarter, we have focused on automating the fish length measurement proce
 
 `Length Measurement/` Code used to setup the system as well as perform length calculations
 
-  - align-p2p.cpp: Alignment of RGB and depth images
-
-  - data_manipulation.cpp: Length measurement algorithm
-
 `Underwater Image Processing/` Code used to do underwater image processing to help with further detection
 
 `images/` Images used to demonstrate the project
@@ -90,7 +86,6 @@ In this quarter, we have focused on automating the fish length measurement proce
 2. Setup the realsense camera with proper USB (e.g. USB 3.0 for D455)
 3. Run `git clone https://github.com/emilyferguson989/FishSense_237D_SP21.git`
 4. Change directory `cd FishSense_237D_SP21/`
-5. In directory `Length Measurement/`, run `make` to get alignment of RGB-D images. See more details in directory `Length Measurement/`.
 
 ## Learn More About Our Contributions
 [Final Video (coming soon)]()
