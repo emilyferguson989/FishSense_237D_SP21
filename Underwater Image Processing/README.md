@@ -1,4 +1,7 @@
-## Underwater image processing
-code development still in progress - leaving space in this directory for the completed code
+## Underwater Image Processing
+mainly three parts:
 
-What we have tried so far: Gussian filter + canny edge detection; fusion; scatter removing; dehazing
+1) color transfer + dehaze
+2) noise filttration
+3) Gaussian blur + canny edge detection
+
