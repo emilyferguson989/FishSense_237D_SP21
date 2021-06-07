@@ -1,30 +1,15 @@
 #include <iostream>
+#include <fstream>
 #include <math.h>
 #include <string>
+#include <vector>
+#include <stdio.h>
 #include <librealsense2/rsutil.h>
 
-/*
-
-test by ./0512 test2/9.csv and 9.png
-head and tail clusters:
-230 241 0.395
-229 240 0.395
-230 245 0.397
-537 219 0.381
-533 218 0.382
-530 215 0.381
-[(230, 241), (229, 240), (230, 245)]
-[(537, 219), (533, 218), (530, 215)]
-
-average value for head and tail:
-head: (230, 242, 0.396)
-tail: (533, 217, 0.381)
-
-*/
 
 //int width, int height, float ppx, float ppy, float fx, float fy, rs2_distortion model, float coeffs[5]
 
-
+// modified from original function in realsense library
 void deproject_pixel_to_point(float point[3], int width, int height, float ppx, float ppy, float fx, float fy, std::string model, float coeffs[5], float pixel[2], float depth)
 {
     assert(model != "RS2_DISTORTION_MODIFIED_BROWN_CONRADY"); // Cannot deproject from a forward-distorted image
@@ -109,32 +94,133 @@ void deproject_pixel_to_point(float point[3], int width, int height, float ppx, 
     point[2] = depth;
 }
 
+// helper function
+std::vector<std::string> split_string(std::string text) {
+    std::vector<std::string> result;
+
+    // split the index before ":":
+    if (text[1] == ':') {
+        result.push_back(text.substr(0, 1));
+        text.erase(text.begin(), text.begin()+2);
+    }
+    else if (text[2] == ':') {
+        result.push_back(text.substr(0, 2));
+        text.erase(text.begin(), text.begin()+3);
+    }
+    else if (text[3] == ':') {
+        result.push_back(text.substr(0, 3));
+        text.erase(text.begin(), text.begin()+4);
+    }
+
+    // split each coordinate
+    std::string delimeter = ",";
+    std::string sub_str = "";
+    int pos = 0;
+    while ((pos = text.find(delimeter)) != (int)std::string::npos) {
+        sub_str = text.substr(0, pos);
+	result.push_back(sub_str);
+	text.erase(text.begin(), text.begin()+pos+1);
+    }
+    result.push_back(text);
+
+    return result;
+}
 
 int main() {
-    int width = 640;
-    int height = 480;
-    float ppx = 310.115;
-    float ppy = 242.869;
-    float fx = 382.465;
-    float fy = 382.084;
-    std::string model = "Inverse Brown Conrady";
-    float coeffs[5] = {-0.056538, 0.0664504, 0.000127996, -0.000611001, -0.0212887};
+    remove("length_full.txt");
+    remove("length_only.txt");
+  
+    int i_index = 0;
+    int j_index = 0;
+    float points[106*2][3] = {0};
 
+    // read in indecies and coordinates in mean vector
+    std::string line;
+    std::ifstream pts_vec ("./mean_points.txt");
+    if (pts_vec.is_open()) {
+        while (getline(pts_vec, line)) {
+	    std::vector<std::string> pts = split_string(line);
+	    int index = stoi(pts[0]);
+	    points[index*2][0] = stof(pts[1]);
+	    points[index*2][1] = stof(pts[2]);
+	    points[index*2][2] = stof(pts[3]);
+	    points[index*2+1][0] = stof(pts[4]);
+	    points[index*2+1][1] = stof(pts[5]);
+	    points[index*2+1][2] = stof(pts[6]);
+	}
+    }
+      
+    int width;
+    int height;
+    float ppx;
+    float ppy;
+    float fx;
+    float fy;
+    std::string model;
+    float coeffs[5];
+    std::vector<std::string> matrix;
+
+    // read in parameters in intrinsic matrix
+    std::ifstream matrix_data ("./intrinsic_matrix.txt");
+    if (matrix_data.is_open()) {
+        while (getline(matrix_data, line)) {
+	    matrix.push_back(line);
+	}
+    }
+
+    width = stoi(matrix[0]);
+    height = stoi(matrix[1]);
+    ppx = stof(matrix[2]);
+    ppy = stof(matrix[3]);
+    fx = stof(matrix[4]);
+    fy = stof(matrix[5]);
+    model = matrix[6];
+    for (int i = 0; i < 5; i++) {
+        coeffs[i] = stof(matrix[7+i]);
+    }
+    
+
+    // transfer from color 2d pixel to color 3d space
     float point1[3];
     float point2[3];
-    float pixel1[2] = {230, 242};
-    float pixel2[2] = {533, 217};
-    float depth1 = 0.396;
-    float depth2 = 0.381;
+    float pixel1[2];
+    float pixel2[2];
+    float depth1;
+    float depth2;
+  
+    for (int i = 0; i < 106; i++) {
+        // skip those without assigning x,y,depth info
+        if (points[i*2][2] == 0) {
+	  continue;
+        }
+	
+        pixel1[0] = points[i*2][0];
+	pixel1[1] = points[i*2][1];
+	depth1 = points[i*2][2];
+	pixel2[0] = points[i*2+1][0];
+	pixel2[1] = points[i*2+1][1];
+	depth2 = points[i*2+1][2];
+	
+        deproject_pixel_to_point(point1, width, height, ppx, ppy, fx, fy, model, coeffs, pixel1, depth1);
+	deproject_pixel_to_point(point2, width, height, ppx, ppy, fx, fy, model, coeffs, pixel2, depth2);
     
-    deproject_pixel_to_point(point1, width, height, ppx, ppy, fx, fy, model, coeffs, pixel1, depth1);
-    deproject_pixel_to_point(point2, width, height, ppx, ppy, fx, fy, model, coeffs, pixel2, depth2);
-    
-    std::cout << point1[0] << " " << point1[1] << " " << point1[2] << std::endl;
-    std::cout << point2[0] << " " << point2[1] << " " << point2[2] << std::endl;
-    float dis = sqrt(pow(point1[0]-point2[0], 2) + pow(point1[1]-point2[1], 2) + pow(point1[2]-point2[2], 2));
-    std::cout << dis << std::endl;
+	//std::cout << "head: " <<  point1[0] << " " << point1[1] << " " << point1[2] << std::endl;
+	//std::cout << "tail: " << point2[0] << " " << point2[1] << " " << point2[2] << std::endl;
+	float dis = sqrt(pow(point1[0]-point2[0], 2) + pow(point1[1]-point2[1], 2) + pow(point1[2]-point2[2], 2));
+	//std::cout << "distance/fish length: " << dis << std::endl;
+	//std::cout << std::endl;
 
+	std::ofstream length_full("length_full.txt", std::ios::app);
+	length_full << "image " << i << ":" << std::endl;
+	length_full << "head: " << point1[0] << " " << point1[1] << " " << point1[2] << std::endl;
+	length_full << "tail: " << point2[0] << " " << point2[1] << " " << point2[2] << std::endl;
+	length_full << "distance/fish length: " << dis << std::endl;
+	length_full << std::endl;
+
+	std::ofstream length_only("length_only.txt", std::ios::app);
+	length_only << i << ":" << dis << std::endl;
+    }
+    
       
     return 0;
  }

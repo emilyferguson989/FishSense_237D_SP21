@@ -1,0 +1,375 @@
+image 1:
+head: -0.00010489 0.0734557 0.386859
+tail: -0.00763638 0.379755 0.498475
+distance/fish length: 0.32609
+
+image 2:
+head: 0.000214448 0.0731016 0.385595
+tail: -0.00496325 0.374321 0.49256
+distance/fish length: 0.31969
+
+image 3:
+head: -0.0205176 0.0712422 0.385129
+tail: -0.118151 0.837993 1.15484
+distance/fish length: 1.09082
+
+image 4:
+head: -0.0267293 0.0625398 0.384751
+tail: -0.186774 0.953228 1.30341
+distance/fish length: 1.28953
+
+image 5:
+head: -0.0257173 0.061806 0.384477
+tail: -0.209491 1.00918 1.38024
+distance/fish length: 1.38666
+
+image 6:
+head: -0.0249968 0.0635102 0.384327
+tail: -0.178939 0.931226 1.27437
+distance/fish length: 1.25252
+
+image 7:
+head: -0.0240102 0.0644684 0.384407
+tail: -0.165307 0.898055 1.2305
+distance/fish length: 1.19612
+
+image 8:
+head: -0.0086101 0.0708738 0.375484
+tail: -0.00627857 0.373744 0.46336
+distance/fish length: 0.315369
+
+image 9:
+head: -0.00756308 0.135248 0.540647
+tail: -0.178002 1.60201 1.72063
+distance/fish length: 1.89019
+
+image 10:
+head: 0.00871165 0.103626 0.374408
+tail: -0.11891 1.46247 1.52337
+distance/fish length: 1.78406
+
+image 12:
+head: -0.0697185 0.225718 0.948773
+tail: -0.154722 1.3641 1.49134
+distance/fish length: 1.26393
+
+image 13:
+head: -0.0734418 0.259119 1.40947
+tail: -0.0422639 0.523548 0.629423
+distance/fish length: 0.824241
+
+image 14:
+head: -0.117227 0.262715 1.54385
+tail: -0.0451798 0.509005 0.618829
+distance/fish length: 0.959956
+
+image 15:
+head: -0.0736719 0.201987 0.83525
+tail: -0.0535444 0.456274 0.525057
+distance/fish length: 0.401605
+
+image 16:
+head: -0.0304852 0.102458 0.438379
+tail: -0.0570541 0.437954 0.505392
+distance/fish length: 0.343153
+
+image 17:
+head: -0.196267 0.274774 2.05329
+tail: -0.0359788 0.481993 0.611272
+distance/fish length: 1.46562
+
+image 18:
+head: -0.1454 0.207374 1.5923
+tail: -0.0316357 0.401686 0.522985
+distance/fish length: 1.09277
+
+image 19:
+head: -0.032825 0.0238273 0.443184
+tail: -0.0509081 0.354503 0.51243
+distance/fish length: 0.338332
+
+image 20:
+head: -0.064063 0.0817466 0.652071
+tail: -0.0745983 0.326092 0.460315
+distance/fish length: 0.310783
+
+image 21:
+head: -0.045875 0.0554994 0.44873
+tail: -0.0947613 0.317648 0.45303
+distance/fish length: 0.266702
+
+image 22:
+head: -0.0556681 0.0594753 0.460745
+tail: -0.0955843 0.325202 0.466818
+distance/fish length: 0.268777
+
+image 23:
+head: -0.0530776 0.0604673 0.470114
+tail: -0.0944318 0.319748 0.452554
+distance/fish length: 0.263144
+
+image 24:
+head: -0.0795124 0.0108276 0.468395
+tail: -0.116305 0.307466 0.480422
+distance/fish length: 0.299153
+
+image 25:
+head: -0.098486 0.0200149 0.47038
+tail: -0.130716 0.30202 0.439823
+distance/fish length: 0.285481
+
+image 26:
+head: -0.136101 0.0524041 0.454884
+tail: -0.150056 0.29062 0.412722
+distance/fish length: 0.24232
+
+image 27:
+head: -0.107332 0.0675863 0.469763
+tail: -0.121323 0.34832 0.410984
+distance/fish length: 0.287163
+
+image 28:
+head: -0.0903416 0.105641 0.470078
+tail: -0.560778 1.6775 1.82248
+distance/fish length: 2.12627
+
+image 29:
+head: -0.0749792 0.0340139 0.496732
+tail: -0.0924005 0.296444 0.429899
+distance/fish length: 0.271366
+
+image 30:
+head: -0.0689497 0.000668469 0.490984
+tail: -0.0948461 0.252005 0.444209
+distance/fish length: 0.256961
+
+image 31:
+head: -0.0631976 -0.0552564 0.499686
+tail: -0.0974673 0.222982 0.477064
+distance/fish length: 0.281253
+
+image 32:
+head: -0.0510719 -0.0207139 0.440567
+tail: -0.0710416 0.251343 0.394443
+distance/fish length: 0.276661
+
+image 33:
+head: -0.0495344 -0.00211935 0.413292
+tail: -0.0577442 0.267673 0.367743
+distance/fish length: 0.273733
+
+image 34:
+head: -0.0468199 0.0253645 0.386663
+tail: -0.0422596 0.283513 0.350105
+distance/fish length: 0.260764
+
+image 35:
+head: -0.0440365 0.0164718 0.383299
+tail: -0.0471436 0.28225 0.345865
+distance/fish length: 0.26842
+
+image 36:
+head: -0.0523122 0.014672 0.374379
+tail: -0.0778876 0.300789 0.362598
+distance/fish length: 0.2875
+
+image 37:
+head: -0.0690626 0.0125533 0.359141
+tail: -0.0913203 0.291847 0.353286
+distance/fish length: 0.280241
+
+image 38:
+head: -0.0595681 0.0266114 0.345453
+tail: -0.0806718 0.294438 0.349977
+distance/fish length: 0.268694
+
+image 39:
+head: -0.0545776 -0.00971131 0.348111
+tail: -0.171351 0.301477 0.401747
+distance/fish length: 0.336676
+
+image 40:
+head: -0.0600554 -0.0136009 0.326625
+tail: -0.161184 0.261165 0.392681
+distance/fish length: 0.300144
+
+image 41:
+head: -0.047857 -0.0359179 0.323019
+tail: -0.153652 0.245072 0.412403
+distance/fish length: 0.313268
+
+image 42:
+head: -0.0721606 -0.00475399 0.312567
+tail: -0.163191 0.263898 0.413062
+distance/fish length: 0.300931
+
+image 43:
+head: -0.0221374 -0.0336594 0.312721
+tail: -0.107092 0.226517 0.460738
+distance/fish length: 0.311156
+
+image 44:
+head: -0.0256824 0.0459594 0.327581
+tail: -0.147827 0.346958 0.448046
+distance/fish length: 0.346455
+
+image 45:
+head: -0.0274565 -0.0561326 0.475079
+tail: -0.0777241 0.229309 0.475776
+distance/fish length: 0.289835
+
+image 67:
+head: -0.0127397 -0.117523 0.296558
+tail: -0.0594734 0.188175 0.37565
+distance/fish length: 0.319204
+
+image 68:
+head: -0.0468002 -0.0984231 0.336554
+tail: -0.0432134 0.169636 0.322191
+distance/fish length: 0.268468
+
+image 69:
+head: -0.0536632 -0.0697504 0.339731
+tail: -0.0503959 0.181774 0.304987
+distance/fish length: 0.253934
+
+image 70:
+head: -0.0651595 -0.0386133 0.348359
+tail: -0.0473935 0.208078 0.29482
+distance/fish length: 0.253058
+
+image 73:
+head: -0.073077 0.0189791 0.399714
+tail: -1.03391 4.22271 4.46212
+distance/fish length: 5.92434
+
+image 74:
+head: -0.101575 0.0155082 0.3865
+tail: -0.198477 0.553957 0.680345
+distance/fish length: 0.621017
+
+image 75:
+head: -0.114193 -0.060236 0.412277
+tail: -0.0941893 0.177293 0.310051
+distance/fish length: 0.259366
+
+image 76:
+head: -0.123601 -0.0495445 0.414285
+tail: -0.102231 0.174955 0.314545
+distance/fish length: 0.246586
+
+image 77:
+head: -0.062841 -0.0958436 0.446287
+tail: -0.078936 0.163276 0.388243
+distance/fish length: 0.266028
+
+image 78:
+head: -0.0253431 -0.170008 0.453679
+tail: -0.0435607 0.120318 0.456212
+distance/fish length: 0.290908
+
+image 79:
+head: 0.01217 -0.185368 0.468699
+tail: -0.0177956 0.0971957 0.492624
+distance/fish length: 0.285153
+
+image 80:
+head: -0.00228246 -0.255457 0.551309
+tail: -0.0214669 0.0738448 0.525367
+distance/fish length: 0.330879
+
+image 81:
+head: -0.0102752 -0.238571 0.474027
+tail: -0.0474954 0.0580851 0.534662
+distance/fish length: 0.305069
+
+image 82:
+head: -0.0480262 -0.240117 0.47584
+tail: -0.0864929 0.0576101 0.585169
+distance/fish length: 0.31949
+
+image 83:
+head: -0.0350576 -0.175348 0.510053
+tail: -0.0828303 0.0868604 0.606905
+distance/fish length: 0.283577
+
+image 84:
+head: -0.0319106 -0.18131 0.519017
+tail: -0.0734685 0.111222 0.63114
+distance/fish length: 0.316028
+
+image 85:
+head: -0.029068 -0.164654 0.522584
+tail: -0.0752854 0.129783 0.64305
+distance/fish length: 0.321467
+
+image 86:
+head: -0.0423022 -0.145649 0.518857
+tail: -0.102921 0.142526 0.652659
+distance/fish length: 0.323454
+
+image 87:
+head: -0.120565 -0.13878 0.597696
+tail: -0.192693 0.144639 0.658506
+distance/fish length: 0.298708
+
+image 88:
+head: -0.177151 -0.061283 0.502373
+tail: -0.288056 0.228717 0.648668
+distance/fish length: 0.343223
+
+image 89:
+head: -0.140283 -0.0228161 0.509673
+tail: -0.244537 0.221909 0.632437
+distance/fish length: 0.292968
+
+image 90:
+head: -0.11765 -0.0442647 0.546121
+tail: -0.229134 0.229313 0.706757
+distance/fish length: 0.33627
+
+image 91:
+head: -0.160628 0.0458342 0.573951
+tail: -0.273117 0.276931 0.692066
+distance/fish length: 0.282861
+
+image 92:
+head: -0.202469 0.0838629 0.564026
+tail: -0.308669 0.322517 0.678937
+distance/fish length: 0.285375
+
+image 93:
+head: -0.220191 0.0815712 0.563487
+tail: -0.328061 0.32891 0.687063
+distance/fish length: 0.296788
+
+image 94:
+head: -0.221505 0.0603387 0.542291
+tail: -0.328374 0.294201 0.664782
+distance/fish length: 0.28481
+
+image 95:
+head: -0.157708 0.0212452 0.496009
+tail: -0.224873 0.265466 0.59313
+distance/fish length: 0.27127
+
+image 96:
+head: -0.0586958 0.0297808 0.460196
+tail: -0.134737 0.331485 0.577553
+distance/fish length: 0.332536
+
+image 97:
+head: 0.00368649 0.0239392 0.449744
+tail: -0.0506742 0.29328 0.540367
+distance/fish length: 0.28933
+
+image 98:
+head: 0.0195789 0.0163464 0.42821
+tail: -0.0263426 0.3036 0.534877
+distance/fish length: 0.309841
+
+image 105:
+head: 0.0767756 -0.0407875 0.398997
+tail: 0.0594705 0.258588 0.478228
+distance/fish length: 0.310165
+

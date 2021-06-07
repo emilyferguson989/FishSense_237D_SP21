@@ -91,9 +91,9 @@ void align_Depth2Color(Mat depth, Mat color, rs2::pipeline_profile profile, int&
 
     // save color image and depth image (in different format)
     //imwrite(to_string(cnt)+".csv", result); // cause error here
-    imwrite(to_string(cnt)+".png", color);
+    imwrite("./color_depth_data/"+to_string(cnt)+".png", color);
 
-    ofstream depth_info(to_string(cnt)+".csv");
+    ofstream depth_info("./color_depth_data/"+to_string(cnt)+".csv");
     for (int i = 0; i < result.size(); i++) {
         for (int j = 0; j < result[0].size(); j++) {
 	    depth_info << result[i][j];
@@ -181,7 +181,6 @@ int main() {
         // align the depth image to the color image
         align_Depth2Color(depth_image, color_image, profile, cnt);
 	
-        // show
 	// show the colorized depth image
         imshow(depth_window, depth_image_c);
         imshow(color_window, color_image);

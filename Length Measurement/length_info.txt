@@ -1,0 +1,9 @@
+before removing outliers: (scale: m)
+standard length: 0.32
+mean: 0.559
+standard deviation: 0.757
+
+after removing outliers: (scale: m)
+standard length: 0.32
+mean: 0.294
+standard deviation: 0.027
