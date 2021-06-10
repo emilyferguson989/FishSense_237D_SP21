@@ -53,7 +53,7 @@ In this quarter, we have focused on automating the fish length measurement proce
 :-------------------------:|:-------------------------:|:-------------------------:
 <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/before transfer.png" width=266>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/target.png" width=266>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/after transfer.png" width=266>
 
-### Head and Tail Coordinate Detection [5].
+### Head and Tail Coordinate Detection [3].
 [Coordinate Edge Detection (Demo)](https://drive.google.com/file/d/1oiDrLLz70NtVc4AjmGsEZQQApX-Uol-S/view?usp=sharing)
 
 ### Calculating the Length of Fish in Air [4].
@@ -92,7 +92,7 @@ In this quarter, we have focused on automating the fish length measurement proce
 4. Change directory `cd FishSense_237D_SP21/`
 
 ## Learn More About Our Contributions
-[Final Video (coming soon)]()
+[Final Video](https://drive.google.com/file/d/1D46RhSbtMZZQeyKquY8yY1PsQWHLUoZe/view?usp=sharing)
 
 [Final Report](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/237D%20Documents/FishSense%20Final%20report.pdf)
 
