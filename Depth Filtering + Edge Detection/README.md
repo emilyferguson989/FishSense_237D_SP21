@@ -50,3 +50,6 @@ For example, if the following were the contents of a coordinates file,
 (12, 21)
 
 Then (2, 3) and (4, 5) would be along the edge for the head, and (10, 20) and (12, 21) would be along the edge for the tail.
+
+### Reading from .bag file instead of local depth .csv files:
+read_from_bag.py includes code for reading depth information from a bag file rather than using local depth .csv files
