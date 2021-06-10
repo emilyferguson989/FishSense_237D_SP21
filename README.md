@@ -90,7 +90,7 @@ In this quarter, we have focused on automating the fish length measurement proce
 ## Learn More About Our Contributions
 [Final Video (coming soon)]()
 
-[Final Report (coming soon)]()
+[Final Report](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/237D%20Documents/FishSense%20Final%20report.pdf)
 
 [Final Presentation Slides](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/237D%20Documents/FishSense%20Final%20Oral%20Presentation.pdf)
 
