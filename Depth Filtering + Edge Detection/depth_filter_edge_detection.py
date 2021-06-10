@@ -12,6 +12,8 @@ import os
 import copy
 import sys
 
+# Gaussian Blur & Edge detector code from https://github.com/FienSoP/canny_edge_detector applied
+# to our setting
 
 class cannyEdgeDetector:
     def __init__(self, imgs, sigma=1, kernel_size=5, weak_pixel=75, strong_pixel=255, lowthreshold=0.05, highthreshold=0.15):
