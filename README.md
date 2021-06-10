@@ -53,8 +53,10 @@ In this quarter, we have focused on automating the fish length measurement proce
 :-------------------------:|:-------------------------:|:-------------------------:
 <img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/before transfer.png" width=266>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/target.png" width=266>  |<img src="https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/images/after transfer.png" width=266>
 
+### Head and Tail Coordinate Detection [5].
+[Coordinate Edge Detection (Demo)](https://drive.google.com/file/d/1oiDrLLz70NtVc4AjmGsEZQQApX-Uol-S/view?usp=sharing)
 
-### Calculating the Length of Fish in Air [2].
+### Calculating the Length of Fish in Air [4].
 
 [Underwater Length Detection (Demo)](https://drive.google.com/file/d/1RAAKjmvraCTCtuozXDL0KcUBxqVNtvJx/view?usp=sharing)
 
@@ -80,6 +82,8 @@ In this quarter, we have focused on automating the fish length measurement proce
 
 `images/` Images used to demonstrate the project
 
+`Depth Filtering + Edge Detection/` Code used to perform depth filtering and detect the edges of the heads and tails of fish
+
 ### Installation
 0. Install the realsense library following the instructions from Intel realsense: https://github.com/IntelRealSense/librealsense
 1. Install OpenCV from its official website: https://docs.opencv.org/master/df/d65/tutorial_table_of_content_introduction.html
@@ -90,7 +94,7 @@ In this quarter, we have focused on automating the fish length measurement proce
 ## Learn More About Our Contributions
 [Final Video (coming soon)]()
 
-[Final Report (coming soon)]()
+[Final Report](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/237D%20Documents/FishSense%20Final%20report.pdf)
 
 [Final Presentation Slides](https://github.com/emilyferguson989/FishSense_237D_SP21/blob/main/237D%20Documents/FishSense%20Final%20Oral%20Presentation.pdf)
 
